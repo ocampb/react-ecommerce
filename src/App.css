@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+
+.App {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.products_container {
+  background: yellow;
+  display: flex;
+  flex-direction: column;
+  height: 1000px;
+  width: 400px;
+  margin: 190px;
+}
+
+.cart {
+  background: blue;
+  height: 1000px;
+  width: 400px;
+}
+
+.products_button {
+  background-color: red;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+}
