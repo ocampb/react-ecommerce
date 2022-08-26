@@ -1,7 +1,6 @@
 import React from "react";
 import "./App.css";
 import { useAppSelector, useAppDispatch } from "./app/hooks";
-import { supabase } from "./supabaseClient";
 import Products from "./components/Products";
 import Cart from "./components/Cart";
 
